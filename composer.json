@@ -1,0 +1,9 @@
+{
+    "name": "behavior_lab/resource_hub-module",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "BehaviorLab\\ResourceHubModule\\": "src/"
+        }
+    }
+}
