@@ -1,9 +1,9 @@
 {
-    "name": "behavior_lab/resource_hub-module",
+    "name": "conduct_lab/resource_hub-module",
     "type": "streams-addon",
     "autoload": {
         "psr-4": {
-            "BehaviorLab\\ResourceHubModule\\": "src/"
+            "ConductLab\\ResourceHubModule\\": "src/"
         }
     }
 }

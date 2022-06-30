@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\ResourceHubModule\Topic;
+<?php namespace ConductLab\ResourceHubModule\Topic;
 
 use Anomaly\Streams\Platform\Entry\EntryRouter;
 

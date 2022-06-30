@@ -1,6 +1,6 @@
 <?php
 
-namespace BehaviorLab\ResourceHubModule\Test\Unit\Resource;
+namespace ConductLab\ResourceHubModule\Test\Unit\Resource;
 
 class ResourcePresenterTest extends \TestCase
 {

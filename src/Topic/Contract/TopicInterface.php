@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\ResourceHubModule\Topic\Contract;
+<?php namespace ConductLab\ResourceHubModule\Topic\Contract;
 
 use Anomaly\Streams\Platform\Entry\Contract\EntryInterface;
 

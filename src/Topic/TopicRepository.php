@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\ResourceHubModule\Topic;
+<?php namespace ConductLab\ResourceHubModule\Topic;
 
-use BehaviorLab\ResourceHubModule\Topic\Contract\TopicRepositoryInterface;
+use ConductLab\ResourceHubModule\Topic\Contract\TopicRepositoryInterface;
 use Anomaly\Streams\Platform\Entry\EntryRepository;
 
 class TopicRepository extends EntryRepository implements TopicRepositoryInterface

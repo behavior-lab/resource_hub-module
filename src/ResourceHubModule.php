@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\ResourceHubModule;
+<?php namespace ConductLab\ResourceHubModule;
 
 use Anomaly\Streams\Platform\Addon\Module\Module;
 

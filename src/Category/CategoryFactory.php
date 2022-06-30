@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\ResourceHubModule\Category;
+<?php namespace ConductLab\ResourceHubModule\Category;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

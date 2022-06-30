@@ -1,6 +1,6 @@
 <?php
 
-namespace BehaviorLab\ResourceHubModule\Test\Unit\Menu;
+namespace ConductLab\ResourceHubModule\Test\Unit\Menu;
 
 class MenuRepositoryTest extends \TestCase
 {

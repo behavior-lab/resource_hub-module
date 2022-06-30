@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\ResourceHubModule\Category;
+<?php namespace ConductLab\ResourceHubModule\Category;
 
-use BehaviorLab\ResourceHubModule\Category\Contract\CategoryRepositoryInterface;
+use ConductLab\ResourceHubModule\Category\Contract\CategoryRepositoryInterface;
 use Anomaly\Streams\Platform\Entry\EntryRepository;
 
 class CategoryRepository extends EntryRepository implements CategoryRepositoryInterface

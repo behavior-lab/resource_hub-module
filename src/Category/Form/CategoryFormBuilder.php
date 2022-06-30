@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\ResourceHubModule\Category\Form;
+<?php namespace ConductLab\ResourceHubModule\Category\Form;
 
 use Anomaly\Streams\Platform\Ui\Form\FormBuilder;
 

@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\ResourceHubModule\Menu;
+<?php namespace ConductLab\ResourceHubModule\Menu;
 
-use BehaviorLab\ResourceHubModule\Menu\Contract\MenuInterface;
+use ConductLab\ResourceHubModule\Menu\Contract\MenuInterface;
 use Anomaly\Streams\Platform\Model\ResourceHub\ResourceHubMenuEntryModel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 

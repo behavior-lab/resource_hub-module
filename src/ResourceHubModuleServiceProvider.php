@@ -1,22 +1,22 @@
-<?php namespace BehaviorLab\ResourceHubModule;
+<?php namespace ConductLab\ResourceHubModule;
 
 use Anomaly\Streams\Platform\Addon\AddonServiceProvider;
-use BehaviorLab\ResourceHubModule\Menu\Contract\MenuRepositoryInterface;
-use BehaviorLab\ResourceHubModule\Menu\MenuRepository;
+use ConductLab\ResourceHubModule\Menu\Contract\MenuRepositoryInterface;
+use ConductLab\ResourceHubModule\Menu\MenuRepository;
 use Anomaly\Streams\Platform\Model\ResourceHub\ResourceHubMenuEntryModel;
-use BehaviorLab\ResourceHubModule\Menu\MenuModel;
-use BehaviorLab\ResourceHubModule\Category\Contract\CategoryRepositoryInterface;
-use BehaviorLab\ResourceHubModule\Category\CategoryRepository;
+use ConductLab\ResourceHubModule\Menu\MenuModel;
+use ConductLab\ResourceHubModule\Category\Contract\CategoryRepositoryInterface;
+use ConductLab\ResourceHubModule\Category\CategoryRepository;
 use Anomaly\Streams\Platform\Model\ResourceHub\ResourceHubCategoriesEntryModel;
-use BehaviorLab\ResourceHubModule\Category\CategoryModel;
-use BehaviorLab\ResourceHubModule\Topic\Contract\TopicRepositoryInterface;
-use BehaviorLab\ResourceHubModule\Topic\TopicRepository;
+use ConductLab\ResourceHubModule\Category\CategoryModel;
+use ConductLab\ResourceHubModule\Topic\Contract\TopicRepositoryInterface;
+use ConductLab\ResourceHubModule\Topic\TopicRepository;
 use Anomaly\Streams\Platform\Model\ResourceHub\ResourceHubTopicsEntryModel;
-use BehaviorLab\ResourceHubModule\Topic\TopicModel;
-use BehaviorLab\ResourceHubModule\Resource\Contract\ResourceRepositoryInterface;
-use BehaviorLab\ResourceHubModule\Resource\ResourceRepository;
+use ConductLab\ResourceHubModule\Topic\TopicModel;
+use ConductLab\ResourceHubModule\Resource\Contract\ResourceRepositoryInterface;
+use ConductLab\ResourceHubModule\Resource\ResourceRepository;
 use Anomaly\Streams\Platform\Model\ResourceHub\ResourceHubResourcesEntryModel;
-use BehaviorLab\ResourceHubModule\Resource\ResourceModel;
+use ConductLab\ResourceHubModule\Resource\ResourceModel;
 use Illuminate\Routing\Router;
 
 class ResourceHubModuleServiceProvider extends AddonServiceProvider
@@ -56,18 +56,18 @@ class ResourceHubModuleServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $routes = [
-        'admin/resource_hub/menu'           => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\MenuController@index',
-        'admin/resource_hub/menu/create'    => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\MenuController@create',
-        'admin/resource_hub/menu/edit/{id}' => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\MenuController@edit',
-        'admin/resource_hub/categories'           => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\CategoriesController@index',
-        'admin/resource_hub/categories/create'    => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\CategoriesController@create',
-        'admin/resource_hub/categories/edit/{id}' => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\CategoriesController@edit',
-        'admin/resource_hub/topics'           => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\TopicsController@index',
-        'admin/resource_hub/topics/create'    => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\TopicsController@create',
-        'admin/resource_hub/topics/edit/{id}' => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\TopicsController@edit',
-        'admin/resource_hub'           => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\TopicsController@index',
-        'admin/resource_hub/create'    => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\TopicsController@create',
-        'admin/resource_hub/edit/{id}' => 'BehaviorLab\ResourceHubModule\Http\Controller\Admin\TopicsController@edit',
+        'admin/resource_hub/menu'           => 'ConductLab\ResourceHubModule\Http\Controller\Admin\MenuController@index',
+        'admin/resource_hub/menu/create'    => 'ConductLab\ResourceHubModule\Http\Controller\Admin\MenuController@create',
+        'admin/resource_hub/menu/edit/{id}' => 'ConductLab\ResourceHubModule\Http\Controller\Admin\MenuController@edit',
+        'admin/resource_hub/categories'           => 'ConductLab\ResourceHubModule\Http\Controller\Admin\CategoriesController@index',
+        'admin/resource_hub/categories/create'    => 'ConductLab\ResourceHubModule\Http\Controller\Admin\CategoriesController@create',
+        'admin/resource_hub/categories/edit/{id}' => 'ConductLab\ResourceHubModule\Http\Controller\Admin\CategoriesController@edit',
+        'admin/resource_hub/topics'           => 'ConductLab\ResourceHubModule\Http\Controller\Admin\TopicsController@index',
+        'admin/resource_hub/topics/create'    => 'ConductLab\ResourceHubModule\Http\Controller\Admin\TopicsController@create',
+        'admin/resource_hub/topics/edit/{id}' => 'ConductLab\ResourceHubModule\Http\Controller\Admin\TopicsController@edit',
+        'admin/resource_hub'           => 'ConductLab\ResourceHubModule\Http\Controller\Admin\TopicsController@index',
+        'admin/resource_hub/create'    => 'ConductLab\ResourceHubModule\Http\Controller\Admin\TopicsController@create',
+        'admin/resource_hub/edit/{id}' => 'ConductLab\ResourceHubModule\Http\Controller\Admin\TopicsController@edit',
     ];
 
     /**
@@ -76,7 +76,7 @@ class ResourceHubModuleServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $middleware = [
-        //BehaviorLab\ResourceHubModule\Http\Middleware\ExampleMiddleware::class
+        //ConductLab\ResourceHubModule\Http\Middleware\ExampleMiddleware::class
     ];
 
     /**
@@ -86,7 +86,7 @@ class ResourceHubModuleServiceProvider extends AddonServiceProvider
      */
     protected $groupMiddleware = [
         //'web' => [
-        //    BehaviorLab\ResourceHubModule\Http\Middleware\ExampleMiddleware::class,
+        //    ConductLab\ResourceHubModule\Http\Middleware\ExampleMiddleware::class,
         //],
     ];
 
@@ -103,8 +103,8 @@ class ResourceHubModuleServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $listeners = [
-        //BehaviorLab\ResourceHubModule\Event\ExampleEvent::class => [
-        //    BehaviorLab\ResourceHubModule\Listener\ExampleListener::class,
+        //ConductLab\ResourceHubModule\Event\ExampleEvent::class => [
+        //    ConductLab\ResourceHubModule\Listener\ExampleListener::class,
         //],
     ];
 
@@ -114,7 +114,7 @@ class ResourceHubModuleServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $aliases = [
-        //'Example' => BehaviorLab\ResourceHubModule\Example::class
+        //'Example' => ConductLab\ResourceHubModule\Example::class
     ];
 
     /**

@@ -1,7 +1,7 @@
-<?php namespace BehaviorLab\ResourceHubModule\Http\Controller\Admin;
+<?php namespace ConductLab\ResourceHubModule\Http\Controller\Admin;
 
-use BehaviorLab\ResourceHubModule\Topic\Form\TopicFormBuilder;
-use BehaviorLab\ResourceHubModule\Topic\Table\TopicTableBuilder;
+use ConductLab\ResourceHubModule\Topic\Form\TopicFormBuilder;
+use ConductLab\ResourceHubModule\Topic\Table\TopicTableBuilder;
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
 
 class TopicsController extends AdminController

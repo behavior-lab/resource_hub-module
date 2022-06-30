@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\ResourceHubModule\Test\Feature;
+<?php namespace ConductLab\ResourceHubModule\Test\Feature;
 
 class ResourceHubModuleTest extends \TestCase
 {

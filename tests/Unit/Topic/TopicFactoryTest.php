@@ -1,6 +1,6 @@
 <?php
 
-namespace BehaviorLab\ResourceHubModule\Test\Unit\Topic;
+namespace ConductLab\ResourceHubModule\Test\Unit\Topic;
 
 class TopicFactoryTest extends \TestCase
 {

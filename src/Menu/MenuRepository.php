@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\ResourceHubModule\Menu;
+<?php namespace ConductLab\ResourceHubModule\Menu;
 
-use BehaviorLab\ResourceHubModule\Menu\Contract\MenuRepositoryInterface;
+use ConductLab\ResourceHubModule\Menu\Contract\MenuRepositoryInterface;
 use Anomaly\Streams\Platform\Entry\EntryRepository;
 
 class MenuRepository extends EntryRepository implements MenuRepositoryInterface

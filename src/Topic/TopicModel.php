@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\ResourceHubModule\Topic;
+<?php namespace ConductLab\ResourceHubModule\Topic;
 
-use BehaviorLab\ResourceHubModule\Topic\Contract\TopicInterface;
+use ConductLab\ResourceHubModule\Topic\Contract\TopicInterface;
 use Anomaly\Streams\Platform\Model\ResourceHub\ResourceHubTopicsEntryModel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 

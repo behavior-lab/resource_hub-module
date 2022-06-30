@@ -1,7 +1,7 @@
-<?php namespace BehaviorLab\ResourceHubModule\Http\Controller\Admin;
+<?php namespace ConductLab\ResourceHubModule\Http\Controller\Admin;
 
-use BehaviorLab\ResourceHubModule\Category\Form\CategoryFormBuilder;
-use BehaviorLab\ResourceHubModule\Category\Table\CategoryTableBuilder;
+use ConductLab\ResourceHubModule\Category\Form\CategoryFormBuilder;
+use ConductLab\ResourceHubModule\Category\Table\CategoryTableBuilder;
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
 
 class CategoriesController extends AdminController

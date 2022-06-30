@@ -31,7 +31,7 @@ class BehaviorLabModuleResourceHubCreateResourceHubFields extends Migration
             'type' => 'anomaly.field_type.select',
             'config' => [
                 'mode' => 'radio',
-                "handler" => \BehaviorLab\ResourceHubModule\Resource\Support\BannerSelectOptions::class
+                "handler" => \ConductLab\ResourceHubModule\Resource\Support\BannerSelectOptions::class
             ],
         ],
         'headline' => 'anomaly.field_type.text',
@@ -46,7 +46,7 @@ class BehaviorLabModuleResourceHubCreateResourceHubFields extends Migration
             'type' => 'anomaly.field_type.multiple',
             'config' => [
                 'mode' => 'lookup',
-                'related' => \BehaviorLab\AuthorsModule\Author\AuthorModel::class,
+                'related' => \ConductLab\AuthorsModule\Author\AuthorModel::class,
             ],
         ],
         'published' => [
@@ -81,9 +81,9 @@ class BehaviorLabModuleResourceHubCreateResourceHubFields extends Migration
             'type' => 'anomaly.field_type.select',
             "config" => [
                 "options" => [
-                    'follow' => 'behavior_lab.module.resource_hub::field.auto_update_modified_date.options.follow',
-                    'no' => 'behavior_lab.module.resource_hub::field.auto_update_modified_date.options.no',
-                    'yes' => 'behavior_lab.module.resource_hub::field.auto_update_modified_date.options.yes',
+                    'follow' => 'conduct_lab.module.resource_hub::field.auto_update_modified_date.options.follow',
+                    'no' => 'conduct_lab.module.resource_hub::field.auto_update_modified_date.options.no',
+                    'yes' => 'conduct_lab.module.resource_hub::field.auto_update_modified_date.options.yes',
                 ],
                 "mode" => "buttons",
                 "default_value" => '',
@@ -124,7 +124,7 @@ class BehaviorLabModuleResourceHubCreateResourceHubFields extends Migration
             'type' => 'anomaly.field_type.multiple',
             'config' => [
                 'mode' => 'lookup',
-                'related' => \BehaviorLab\ResourceHubModule\Resource\ResourceModel::class,
+                'related' => \ConductLab\ResourceHubModule\Resource\ResourceModel::class,
             ],
         ],
         'autogenerate_related_max' => [
@@ -133,7 +133,7 @@ class BehaviorLabModuleResourceHubCreateResourceHubFields extends Migration
                 'default_value' => 3
             ]
         ],
-        'structured_data' => 'behavior_lab.field_type.struct_data',
+        'structured_data' => 'conduct_lab.field_type.struct_data',
 
         // Categories
         'icon' => [
@@ -149,7 +149,7 @@ class BehaviorLabModuleResourceHubCreateResourceHubFields extends Migration
             'type' => 'anomaly.field_type.multiple',
             'config' => [
                 'mode' => 'lookup',
-                'related' => \BehaviorLab\ResourceHubModule\Category\CategoryModel::class,
+                'related' => \ConductLab\ResourceHubModule\Category\CategoryModel::class,
             ],
         ],
 

@@ -1,7 +1,7 @@
-<?php namespace BehaviorLab\ResourceHubModule\Http\Controller\Admin;
+<?php namespace ConductLab\ResourceHubModule\Http\Controller\Admin;
 
-use BehaviorLab\ResourceHubModule\Menu\Form\MenuFormBuilder;
-use BehaviorLab\ResourceHubModule\Menu\Table\MenuTableBuilder;
+use ConductLab\ResourceHubModule\Menu\Form\MenuFormBuilder;
+use ConductLab\ResourceHubModule\Menu\Table\MenuTableBuilder;
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
 
 class MenuController extends AdminController

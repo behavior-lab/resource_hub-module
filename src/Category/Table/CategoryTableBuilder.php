@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\ResourceHubModule\Category\Table;
+<?php namespace ConductLab\ResourceHubModule\Category\Table;
 
 use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
 

@@ -2,7 +2,7 @@
 return [
     'tabs' => [
         'resource' => [
-            'title' => 'behavior_lab.module.resource_hub::tabs.resource',
+            'title' => 'conduct_lab.module.resource_hub::tabs.resource',
             'fields' => [
                 'title',
                 'banner_type',
@@ -14,7 +14,7 @@ return [
             ],
         ],
         'related' => [
-            'title' => 'behavior_lab.module.resource_hub::tabs.related',
+            'title' => 'conduct_lab.module.resource_hub::tabs.related',
             'fields' => [
                 'autogenerate_related',
                 'related',
@@ -22,7 +22,7 @@ return [
             ],
         ],
         'meta' => [
-            'title' => 'behavior_lab.module.resource_hub::tabs.meta',
+            'title' => 'conduct_lab.module.resource_hub::tabs.meta',
             'fields' => [
                 'slug',
                 'author',
@@ -34,7 +34,7 @@ return [
             ],
         ],
         'seo' => [
-            'title' => 'behavior_lab.module.resource_hub::tabs.seo',
+            'title' => 'conduct_lab.module.resource_hub::tabs.seo',
             'fields' => [
                 'structured_data',
             ],
