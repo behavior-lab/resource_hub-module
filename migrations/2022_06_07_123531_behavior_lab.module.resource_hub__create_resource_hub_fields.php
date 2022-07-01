@@ -11,7 +11,18 @@ class BehaviorLabModuleResourceHubCreateResourceHubFields extends Migration
      * @var array
      */
     protected $fields = [
-        'title' => 'anomaly.field_type.text',
+        'title' => [
+            'type' => 'anomaly.field_type.textarea',
+            "config" => [
+                "rows" => 1,
+            ]
+        ],
+        'title_plural' => [
+            'type' => 'anomaly.field_type.textarea',
+            "config" => [
+                "rows" => 1,
+            ]
+        ],
         'slug' => [
             'type' => 'anomaly.field_type.slug',
             'config' => [

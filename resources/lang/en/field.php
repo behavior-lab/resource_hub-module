@@ -4,6 +4,9 @@ return [
     'title' => [
         'name' => 'Title',
     ],
+    'title_plural' => [
+        'name' => 'Title (Plural)',
+    ],
     'categories' => [
         'name' => 'Categories',
     ],
@@ -21,7 +24,7 @@ return [
     ],
     'description' => [
         'name' => 'Description',
-        'instructions' => 'The description is used in the Resources menu. Keep it short',
+        'instructions' => 'The first line of the description is used in the Resources menu. Keep it short',
     ],
 
 ];

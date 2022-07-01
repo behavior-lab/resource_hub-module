@@ -35,6 +35,10 @@ class BehaviorLabModuleResourceHubCreateCategoriesStream extends Migration
             'translatable' => true,
             'required' => true,
         ],
+        'title_plural' => [
+            'translatable' => true,
+            'required' => true,
+        ],
         'slug' => [
             'unique' => true,
             'required' => true,
