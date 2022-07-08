@@ -10,7 +10,14 @@ class CategoryFormBuilder extends FormBuilder
      *
      * @var array|string
      */
-    protected $fields = [];
+    protected $fields = [
+        'title',
+        'title_plural',
+        'slug',
+        'filterable',
+        'icon',
+        'description'
+    ];
 
     /**
      * Additional validation rules.
