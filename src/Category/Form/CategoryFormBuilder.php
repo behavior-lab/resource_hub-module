@@ -16,7 +16,9 @@ class CategoryFormBuilder extends FormBuilder
         'slug',
         'filterable',
         'icon',
-        'description'
+        'description',
+        'publication_info_position',
+        'share_position',
     ];
 
     /**
