@@ -2,7 +2,7 @@
 
 return [
     'auto_update_modified_date' => [
-        'required'    => true,
+        'required'    => false,
         'placeholder' => false,
         'type'   => 'anomaly.field_type.boolean',
         'config' => [
