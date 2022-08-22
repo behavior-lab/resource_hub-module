@@ -20,11 +20,9 @@ return [
     ],
     'icon' => [
         'name' => 'Icon',
-        'instructions' => 'The icon is used in the Resources menu',
     ],
     'description' => [
         'name' => 'Description',
-        'instructions' => 'The first line of the description is used in the Resources menu. Keep it short',
     ],
     'publication_info_position' => [
         'name' => 'Publication information position'

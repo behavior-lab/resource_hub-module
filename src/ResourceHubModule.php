@@ -41,6 +41,7 @@ class ResourceHubModule extends Module
             ],
         ],
         'menu' => [
+            'href' => '/admin/navigation/links/global_top_bar',
             'buttons' => [
                 'new_menu',
             ],
