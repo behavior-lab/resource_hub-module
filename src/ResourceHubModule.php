@@ -76,11 +76,11 @@ class ResourceHubModule extends Module
                     if (!$hasCpAccess->check()) {
                         continue;
                     }
-                    /** @var UserModel $user */
-                    $user = $hasCpAccess->user;
-                    if (!$user->hasAnyRole($page->allowed_roles)) {
-                        continue;
-                    }
+//                    /** @var UserModel $user */
+//                    $user = $hasCpAccess->user;
+//                    if (!$user->hasAnyRole($page->allowed_roles)) {
+//                        continue;
+//                    }
                 }
                 $pagePoints[$page->id] = ['page' => $page, 'points' => 0];
                 if ($page->entry->resource_category->id === $categoryId) {
